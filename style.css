@@ -41,6 +41,7 @@ a:hover {
   padding: 30px;
   border-radius: 5px;
   margin: 30px;
+  margin-left: 200px;
 }
 
 .images-size {
@@ -76,6 +77,26 @@ a:hover {
 .link-highlight {
   color: rgb(100, 100, 100);
 }
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(230, 230, 230);
+}
+
+#sidebar ul {
+  padding: 0px;
+}
+
+#sidebar li {
+  list-style-type: none;
+  margin: 20px;
+  font-size: 20px;
+}
+
 @media (max-width: 1080px) {
   .images-size {
     height: 250px;
